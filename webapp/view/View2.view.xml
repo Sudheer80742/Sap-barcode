@@ -1,0 +1,2 @@
+<mvc:XMLView xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" controllerName="project10.controller.View1">
+</mvc:XMLView>

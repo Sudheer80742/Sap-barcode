@@ -1,0 +1,22 @@
+<c:FragmentDefinition xmlns:c="sap.ui.core" xmlns="sap.m">
+<Dialog>
+<Table items="{eata>/Sam}">
+<columns>
+<Column >
+<Text text="Id"/>
+</Column>
+<Column >
+<Text text="Select Name"/>
+</Column>
+</columns>
+<items>
+<ColumnListItem type="Active" press="onClickThis">
+<cells>
+<Text text="{eata>id}"/>
+<Text text="{eata>name}"/>
+</cells>
+</ColumnListItem>
+</items>
+</Table>
+</Dialog>
+</c:FragmentDefinition>

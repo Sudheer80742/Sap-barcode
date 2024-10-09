@@ -1,0 +1,19 @@
+{
+    "Data":[
+        {
+            "name":"sudheer",
+            "address":"swarna",
+            "rollno":107
+        },
+        {
+            "name":"sravs",
+            "address":"guntur",
+            "rollno":33
+        },
+        {
+            "name":"sriVanitha",
+            "address":"repalli",
+            "rollno":57
+        }
+    ]
+}

@@ -1,0 +1,15 @@
+<mvc:View
+    controllerName="project10.controller.View3"
+    xmlns:mvc="sap.ui.core.mvc"
+    xmlns="sap.m">
+    <Page title="Camera Capture">
+        <content>
+            <Button text="Open Camera" press="onOpeningCam" id="cam"/>
+            <VBox id="cont" width="300px" height="auto"/>
+            <Button text="Take Picture" press=".onTakePicture" visible="false" id="pic"/>
+            <Button text="Update Picture" press=".AddImage" visible="false" id="upd"/>
+            <Text id="imageInfo" />
+            <Image id="capturedImage" src="" width="300px" />
+        </content>
+    </Page>
+</mvc:View>

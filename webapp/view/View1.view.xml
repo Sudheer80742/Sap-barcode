@@ -1,0 +1,15 @@
+<mvc:View controllerName="project10.controller.View1"
+    xmlns:mvc="sap.ui.core.mvc" displayBlock="true"
+    xmlns="sap.m">
+    <Page id="page" title="{i18n>title}">
+        <content >
+            <Input showValueHelp="true" valueHelpRequest="onShow"/>
+            <Button text="Page3" press="onNav3"/>
+            <Button text="Page4" press="onNav4"/>
+
+              <Input id="barcodeInput" placeholder="Enter value for barcode" />
+<Button id="generateBarcodeButton" text="Generate Barcode" press="onGenerateBarcode"/>
+<Image id="barcode" src=""/>
+        </content>
+    </Page>
+</mvc:View>

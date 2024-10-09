@@ -1,0 +1,34 @@
+<c:FragmentDefinition xmlns:c="sap.ui.core" xmlns="sap.m">
+<Dialog draggable="true">
+<Table items="{data>/Data}">
+<columns>
+<Column >
+<Text text="Name"/>
+</Column>
+<Column >
+<Text text="Address"/>
+</Column>
+<Column >
+<Text text="RollNo"/>
+</Column>
+<Column >
+<Text text="Eligable"/>
+</Column>
+</columns>
+<items>
+<ColumnListItem type="Navigation" press="onClick">
+<cells>
+<Text text="{data>name}"/>
+<Text text="{data>address}"/>
+<ObjectListItem number="{data>rollno}" numberState="{
+    path:'data>rollno',
+    formatter:'.formatter.eli'
+}"/>
+<Text text="{=${data>rollno}>100?'eligible':'Not Eligible'}"/>
+</cells>
+</ColumnListItem>
+</items>
+</Table>
+<Input showValueHelp="true" valueHelpRequest="onReq1" id="val"/>
+</Dialog>
+</c:FragmentDefinition>
